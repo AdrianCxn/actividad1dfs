@@ -1,0 +1,128 @@
+ body {
+    margin: 0px;
+    padding: 0px;
+    background: #417fa6;
+    font-family: "Segoe UI";
+}
+
+#imagen1 {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagen2 {
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+header {
+    padding: 10px;
+    background: white;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+.cajita {
+    width:48%;
+    height:410px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.cajita img{
+    max-width: 100%;
+    width: 100%
+}
+
+.textitoencajita {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 20px;
+    height: 100%;
+}
+
+.formulario {
+    text-align: center;
+    color: white;
+    border: white 2px;
+
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;  
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    padding: 10px
+}
+
+@media screen and (max-width: 1111px) {
+    .cajita {
+        width: 95%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .cajita img {
+        width: 100%;
+        object-fit: cover;
+        margin: 0;
+        display: block;
+    }
+
+    header, footer {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        margin-right: 100px;
+    }
+
+    #imagen1 {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: 10px;
+        margin: 0 auto;
+    }
+
+    h1, h3 {
+        width: 90%;
+        margin: 20px;
+    }
+}
